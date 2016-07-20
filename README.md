@@ -93,9 +93,9 @@
 {
     "status": "success",
     "data": {
-        "objects": [
+        "products": [
             {
-                "id": "e530v5",
+                "id": "39v9t",
                 "name": "name"
             }, 
             {
