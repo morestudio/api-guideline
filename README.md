@@ -45,7 +45,7 @@
 * key ที่ใช้จะต้องเป็นตัวเล็กทั้งหมด ระหว่างคำคั่นด้วย `_ (underscore)` เช่น `debug_message`
 * หากเป็นไปได้ id ของ object ไม่ควรจะเป็น running number
 * key จะต้องใช้ชื่อเดิมตลอด ไม่ว่าจะเรียกจาก API ไหนก็ตาม
-* value อันไหนควรเป็น number ก็ควรจะใช้ number ไม่ควรใช้ string เช่น price ควรเป็น number
+* value อันไหนเป็น number ควรใช้เป็น number ไม่ควรใช้ string เช่น price ควรเป็น number
 
 ### Structure
 
