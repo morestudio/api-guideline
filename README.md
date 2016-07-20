@@ -51,8 +51,8 @@
 
 * ใน level - 0 จะมี key `status` และ `data`  ยกเว้นกรณี *error* ข้อมูลข้อผิดพลาดจะอยู่ใน `error`
 * ใน level เดียวกันข้อมูลจะต้องเป็นข้อมูลของ object เดียวกันเท่านั้น หากเป็นของ object อื่นให้ผลักไปอีก level
-* ในกรณีเป็นข้อมูลเดี่ยว เช่น product's detail ข้อมูลของ object จะอยู่ใน `data` ที่ level - 0 
-* ในกรณีเป็นข้อมูลชุด เช่น list of products ข้อมูลของ object จะอยู่ใน `objects` ที่ level - 1
+* ในกรณีเป็นข้อมูลเดี่ยว เช่น product's detail ข้อมูลของ object จะอยู่ใน `data` ซึ่งหมายถึงข้อมูลของ object จะอยู่ที่ level - 1
+* ในกรณีเป็นข้อมูลชุด เช่น list of products จะมี `[objects]` อยู่ที่ `data` และข้อมูลของ object จะอยู่ใน `[objects]`
 * ในกรณีเป็นข้อมูลชุด จะมี `total`, `page` ที่ level - 1
 * `page` เริ่มที่ 1
 * `error` จะประกอบไปด้วย `code`, `message`, `debug_message`
