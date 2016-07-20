@@ -59,10 +59,12 @@
     * `message` คือ ข้อความที่จะแสดงต่อ user ไม่ควรเป็นข้อความที่ได้จาก server โดยตรง
     * `debug_message` คือ ข้อความข้อผิดพลาดที่ได้รับจาก server โดยตรง เพื่อสะดวกในการ debug
     * `debug_message` จะไม่มีการส่งไปที่ client เมื่อเป็น production 
-### ตัวอย่าง
-*Success:*
 
-Object
+### ตัวอย่าง
+
+####Success:
+
+*Object*
 
 ```json
 {
@@ -84,7 +86,7 @@ Object
 }
 ```
 
-Objects
+*Objects*
 
 ```json
 {
@@ -106,7 +108,7 @@ Objects
 }
 ```
 
-*Fail:*
+####Fail:
 
 ```json
 {
@@ -117,13 +119,13 @@ Objects
 }
 ```
 
-*Error:*
+####Error:
 
 ```json
 {
     "status": "error",
     "error": {
-        "code": 400, //int
+        "code": 400,
         "message": "error message",
         "debug_message": "system error message"
     }
