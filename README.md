@@ -136,7 +136,8 @@
 
 ## Date Time Format
 
-* format `yyyy-MM-dd HH:mm:ss` ตัวอย่าง `2016-12-31 23:59:00`
+* ใช้มาตราฐาน ISO8601
+* format `yyyy-MM-dd'T'HH:mm:ss'Z'` ตัวอย่าง `2016-12-31T23:59:00Z`
 * ใช้ format นี้ในส่วนของ parameter และ response
 * ปีที่ใช้เป็นคริสตศักราชเท่านั้น
 * ใช้ UTC±0 ไม่มีการบวกลบเวลา
