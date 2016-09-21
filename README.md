@@ -136,7 +136,7 @@
 
 ## Date Time Format
 
-* ใช้มาตราฐาน ISO8601
+* ใช้มาตราฐาน ISO 8601
 * format `yyyy-MM-dd'T'HH:mm:ss'Z'` ตัวอย่าง `2016-12-31T23:59:00Z`
 * ใช้ format นี้ในส่วนของ parameter และ response
 * ปีที่ใช้เป็นคริสตศักราชเท่านั้น
